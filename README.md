@@ -1,6 +1,6 @@
 # node-graphql-mongoose
 
-Using `apollo-server-express` for setting up the GraphQL Server. `Mongoose` is used for stroing the data in the database.
+Using `apollo-server-express` for setting up the GraphQL Server. `Mongoose` is used for performing database operations.
 
 ## Prerequisite 
 

@@ -23,10 +23,14 @@ The above should be installed in your system.
 
 > Here you can perform the queries and mutation
 
+> You can see all graphQL endpoints by clicking on Docs on the right side
+
 
 ## Example
 
 Copy Paste below query on the left side of interface and then run it
+
+### Fetch Movies
 
 `{
   movies {
@@ -34,5 +38,19 @@ Copy Paste below query on the left side of interface and then run it
     producer
     rating
     id
+  }
+}`
+
+### Add Movie
+
+`mutation {
+  addMovie(
+    name: "RBJ",
+    producer: "YRF",
+    rating: 4
+  )
+  {
+    id
+    name   
   }
 }`

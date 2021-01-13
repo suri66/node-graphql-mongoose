@@ -6,7 +6,7 @@ var logger = require('morgan');
 const cors = require('cors');
 const { ApolloServer } = require('apollo-server-express');
 var mongoose = require('./lib/db/connect');
-const schema = require('./routes/index');
+const schema = require('./endpoints/index');
 
 const server = new ApolloServer({
   typeDefs: schema.typeDefs,
